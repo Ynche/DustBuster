@@ -3,7 +3,7 @@ import os
 
 # Remark: the script requires files from previous step to be downloaded first.
 # We create a csv where every row represents a daily summary for a sensor from the 317 sensors containing info about number of hourly observations.
-os.chdir('C:/Users/Ynche/Downloads/DBuster')
+os.chdir('C:/Users/Ynche/Downloads/DBuster2')
 summary_df = pd.DataFrame(columns=['sensor_id', 'date', 'observations','lon','lat'])
 for file in os.listdir(os.getcwd()):
     if file.endswith('.csv'):

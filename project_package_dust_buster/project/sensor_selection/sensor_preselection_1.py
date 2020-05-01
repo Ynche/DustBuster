@@ -20,5 +20,5 @@ chunk_list = chunk_list.drop_duplicates(subset='sensor_id', keep="first")
 chunk_list.to_csv('chunk_list.csv')
 df = pd.read_csv('chunk_list.csv', sep=",")
 df = df.drop_duplicates(subset='sensor_id', keep="first")
-df.to_csv('df_concat.csv')
+df.to_csv('all_sensors.csv')  #(df_concat)
 print(df.shape) #(352, 3) A dataframe with unique sensors in Sofia city

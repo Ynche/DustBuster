@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0adfddf-4bbd-4262-a8fd-bd0db7f3effd" name="Default Changelist" comment="" />
+    <list default="true" id="a0adfddf-4bbd-4262-a8fd-bd0db7f3effd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/sensor_selection/agglomerated_df_final_sensors_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/sensor_selection/climate_dataset_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/sensor_selection/filter_sensors_summary_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/function_modules/functions_general.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/function_modules/functions_general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/function_modules/functions_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/function_modules/functions_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/sensor_selection/1_sensor_preselection.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/sensor_selection/sensor_preselection_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/sensor_selection/2_download_luftdaten.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/sensor_selection/download_luftdaten_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/sensor_selection/3_sensors_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/sensor_selection/sensors_summary_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/sensor_selection/4_filter_sensors_summary.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +62,66 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="154927200">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="44" />
+          <entry key="py" value="1292" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Python" value="1292" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/function_modules/functions_general.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/sensor_selection/agglomerated_df_final_sensors_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/sensor_selection/climate_dataset_6.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="21" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/sensor_selection/1_sensor_preselection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="18" />
+              <caret line="6" column="15" selection-start-line="9" selection-end-line="26" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -75,10 +130,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/sensor_selection/2_download_luftdaten.py">
+        <entry file="file://$PROJECT_DIR$/project/sensor_selection/teste.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/sensor_selection/sensor_preselection_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-end-line="6" selection-end-column="8" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -87,10 +147,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/sensor_selection/3_sensors_summary.py">
+        <entry file="file://$PROJECT_DIR$/project/sensor_selection/download_luftdaten_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/sensor_selection/sensors_summary_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -101,8 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/function_modules/functions_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="51">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -110,14 +179,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/sensor_selection/4_filter_sensors_summary.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/sensor_selection/filter_sensors_summary_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="109" selection-start-line="15" selection-start-column="109" selection-end-line="15" selection-end-column="109" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -131,6 +197,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -139,18 +208,29 @@
         <option value="$PROJECT_DIR$/project/sensor_selection/sensor_reselection_2.py" />
         <option value="$PROJECT_DIR$/project/sensor_selection/sensor_preselection_1.py" />
         <option value="$PROJECT_DIR$/project/sensor_selection/sensor_preselection_2.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/1_sensor_preselection.py" />
+        <option value="$PROJECT_DIR$/project/function_modules/functions_general.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/2_download_luftdaten.py" />
         <option value="$PROJECT_DIR$/project/sensor_selection/3_sensors_summary.py" />
         <option value="$PROJECT_DIR$/project/function_modules/functions_plot.py" />
         <option value="$PROJECT_DIR$/project/sensor_selection/4_filter_sensors_summary.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/5.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/test.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/5_agglomerated_df_final_sensors.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/filter_sensors_summary_4.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/agglomerated_df_final_sensors_5.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/merge_pollution_climate_datasets_6.py" />
+        <option value="$PROJECT_DIR$/project/sensor_selection/climate_dataset_6.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-41" />
     <option name="y" value="122" />
     <option name="width" value="1280" />
     <option name="height" value="631" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -161,23 +241,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="project_package_duct_buster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_package_duct_buster" type="462c0819:PsiDirectoryNode" />
+              <item name="project_package_dust_buster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_package_dust_buster" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project_package_duct_buster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_package_duct_buster" type="462c0819:PsiDirectoryNode" />
+              <item name="project_package_dust_buster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_package_dust_buster" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project_package_duct_buster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_package_duct_buster" type="462c0819:PsiDirectoryNode" />
+              <item name="project_package_dust_buster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_package_dust_buster" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="function_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project_package_duct_buster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_package_duct_buster" type="462c0819:PsiDirectoryNode" />
+              <item name="project_package_dust_buster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_package_dust_buster" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="sensor_selection" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -202,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.climate_dataset_6">
     <configuration name="4_filter_sensors_summary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project_package_duct_buster" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +295,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/sensor_selection/4_filter_sensors_summary.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ynche\Documents\SoftUni\Data Science\Project\DustBuster\Fine Particle Pollution in Sofia_Ivelina Gateva\Dust Buster\project_package_dust_buster\project\sensor_selection\filter_sensors_summary_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,9 +304,104 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="agglomerated_df_final_sensors_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project_package_duct_buster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/sensor_selection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/sensor_selection/agglomerated_df_final_sensors_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="climate_dataset_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project_package_duct_buster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/sensor_selection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/sensor_selection/climate_dataset_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="filter_sensors_summary_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project_package_duct_buster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/sensor_selection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/sensor_selection/filter_sensors_summary_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="functions_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project_package_duct_buster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/function_modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/function_modules/functions_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.4_filter_sensors_summary" />
+      <item itemvalue="Python.functions_plot" />
+      <item itemvalue="Python.filter_sensors_summary_4" />
+      <item itemvalue="Python.agglomerated_df_final_sensors_5" />
+      <item itemvalue="Python.climate_dataset_6" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.climate_dataset_6" />
+        <item itemvalue="Python.agglomerated_df_final_sensors_5" />
+        <item itemvalue="Python.filter_sensors_summary_4" />
         <item itemvalue="Python.4_filter_sensors_summary" />
+        <item itemvalue="Python.functions_plot" />
       </list>
     </recent_temporary>
   </component>
@@ -244,14 +419,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23065476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2983631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34860885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -271,55 +447,72 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project/function_modules/functions_general.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/sensor_selection/1_sensor_preselection.py">
+    <entry file="file://$PROJECT_DIR$/project/sensor_selection/download_luftdaten_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sensor_selection/2_download_luftdaten.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sensor_selection/3_sensors_summary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/function_modules/functions_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/sensor_selection/4_filter_sensors_summary.py">
+    <entry file="file://$PROJECT_DIR$/project/sensor_selection/teste.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sensor_selection/agglomerated_df_final_sensors_5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="109" selection-start-line="15" selection-start-column="109" selection-end-line="15" selection-end-column="109" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sensor_selection/sensor_preselection_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sensor_selection/sensors_summary_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sensor_selection/filter_sensors_summary_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/sensor_selection/climate_dataset_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="9" selection-end-line="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

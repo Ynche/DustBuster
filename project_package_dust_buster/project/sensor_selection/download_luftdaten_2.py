@@ -4,12 +4,12 @@ import wget
 
 # Remark: the script requires large free space on disk and and is highly time consuming.
 # At the end of the execution all csv files for the selected sensors and predefined period are downloaded in the destination folder.
-df_concat = pd.read_csv('df_concat.csv')
-sensor_list = df_concat.sensor_id.tolist() # list of 352 sensors in Sofia
+all_sensors = pd.read_csv('all_sensors.csv')
+sensor_list = all_sensors.sensor_id.tolist() # list of 352 sensors in Sofia
 start_date = date(2015, 10, 1)   # start date of the Luftdaten project
-end_date = date(2019, 12, 31)   # end date (the study has been conducted in Jan. 2021, therefore the day can be extended)
+end_date = date(2019, 12, 31)   # end date (the study has been conducted in Jan. 2020, therefore the day can be extended)
 delta = end_date - start_date       # as timedelta
-destination_folder = "C:/DBuster/"
+destination_folder = "C:/DBuster2/"
 for day in range(delta.days + 1): # download all csv files for the selected sensors and selected period
     day = start_date + timedelta(days=day)
     for sensor in sensor_list:

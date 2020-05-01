@@ -11,9 +11,16 @@ def apply_location_criteria(df:pd.DataFrame,MAX_LAT,MIN_LAT,MAX_LON,MIN_LON) -> 
     selected = df[(df.lat <= MAX_LAT)&(df.lat >= MIN_LAT)&(df.lon <= MAX_LON)&(df.lon >= MIN_LON)]
     return selected
 
-def select_sensors_with_daily_percent_completeness(df:pd.DataFrame,percent_complete_float:float,days:int) -> pd.DataFrame:
+def select_sensors_with_daily_percent_completeness(df:pd.DataFrame,percent_complete_float:float,total_days:int) -> pd.DataFrame:
     new_df = df.groupby('sensor_id')['observations'].count()
-    days_complete = round(days*percent_complete_float,0)
+    days_complete = round(total_days*percent_complete_float,0)
     reduced_df = new_df[new_df>=days_complete]
     remaining_df = new_df[new_df<days_complete]
+    return reduced_df,remaining_df
+
+def select_sensors_with_hourly_percent_completeness(df:pd,percent_complete_float:float,total_days:int)-> pd.DataFrame:
+    new_df = df.groupby('sensor_id')['observations'].sum()
+    hours_complete = round(total_days*24*percent_complete_float,0)
+    reduced_df = new_df[new_df>=hours_complete]
+    remaining_df = new_df[new_df<hours_complete]
     return reduced_df,remaining_df
