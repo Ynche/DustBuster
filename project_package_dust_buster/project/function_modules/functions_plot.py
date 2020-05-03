@@ -57,3 +57,13 @@ def plot_map(df,map_name,final_sensor_list,remaining_sensor_list):
     m.plot(q, r, "o", markersize = 2, color = "orange")
     plt.savefig("Sofia_{}.png".format(map_name),bbox_inches="tight")
     return plt.show()
+
+def plot_pollution(df,x,bin_steps,range_start,range_end,color_p1,color_p2,xlabel,ylabel):
+    bins = [x for x in range(range_start,range_end,bin_steps)]
+    average_p1_by_temp = df.groupby(pd.cut(df[x],bins=bins))["P1"].mean()
+    average_p2_by_temp = df.groupby(pd.cut(df[x],bins=bins))["P2"].mean()
+    average_p1_by_temp.plot(kind='bar',x=x,y=['P1'],color=color_p1, align='center')
+    average_p2_by_temp.plot(kind='bar',x=x,y=['P2'],color=color_p2, align='center')
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    return plt.show()

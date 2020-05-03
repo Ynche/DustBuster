@@ -5,8 +5,11 @@ from datetime import date
 
 os.chdir('C:/Users/Ynche/Downloads/DBuster2/Agglomerated')
 weather_report = pd.read_csv('15614099999 hourly.csv',sep=',',usecols=['DATE', 'REPORT_TYPE','WND','TMP', 'SLP', 'AA1','AJ1'])
-print(weather_report.describe())
-print(weather_report.shape)
+
+print('Shape of raw dataset {}'.format(weather_report.shape))
+print('Types of raw dataset:\n{}'.format(weather_report.dtypes))
+print('Description of raw dataset:\n{}'.format(weather_report.describe()))
+
 weather_report = weather_report.rename(columns={'DATE': 'DATETIME'})
 weather_report[['DATE','TIME']] = weather_report.DATETIME.str.split("T",expand=True)
 weather_report.DATETIME = pd.to_datetime(weather_report.DATETIME, format='%Y-%m-%dT%H:%M:%S')
@@ -26,7 +29,7 @@ weather_report.drop(weather_report[weather_report.REPORT_TYPE == 'FM-12'].index,
 weather_report.drop(weather_report[weather_report.REPORT_TYPE == 'FM-16'].index, inplace=True)
 
 days = pd.date_range(date(2017,1,1), date(2019,12,31),freq = 'H')
-print(len(days))
+
 climate = pd.DataFrame({'DATETIME': days})
 climate = climate.set_index('DATETIME')
 climate["WIND"] = weather_report.set_index('DATETIME').resample('H')['WIND'].mean().round(2)
@@ -41,5 +44,10 @@ climate.RAIN = round(climate.RAIN/12,2)
 climate.SNOW = round(climate.SNOW/3,2)
 climate.SNOW.fillna(value=0,inplace = True)
 climate.RAIN.fillna(value=0,inplace = True)
-print(climate.describe())
 
+
+climate.to_csv('climate.csv')
+
+print('Shape of final dataset {}'.format(climate.shape))
+print('Types of final dataset:\n{}'.format(climate.dtypes))
+print('Description final dataset:\n{}'.format(climate.describe()))
