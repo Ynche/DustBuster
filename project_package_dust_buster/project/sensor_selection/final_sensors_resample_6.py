@@ -13,8 +13,9 @@ sensors_df['month'] = sensors_df.dtime.dt.month
 # sensors_df['date'] = pd.to_datetime(sensors_df.date)
 sensors_final_dataset=sensors_df[~sensors_df.date.isin(pd.date_range(start='20150101', end='20170930'))]
 
-sensors_final_dataset.to_csv('sensors_final_dataset.csv')
+# sensors_final_dataset.to_csv('sensors_final_dataset.csv')
 
+print(sensors_final_dataset.month.head())
 print('Shape of final dataset {}'.format(sensors_final_dataset.shape))
 print('Types of final dataset:\n{}'.format(sensors_final_dataset.dtypes))
 print('Description final dataset:\n{}'.format(sensors_final_dataset.describe()))
